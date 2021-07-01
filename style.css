@@ -23,6 +23,7 @@ body{
     justify-content: start;
     width: 60%;
     height: 100vh;
+    flex-wrap: wrap;
 }
 
 .instagram-phone{
@@ -126,6 +127,21 @@ body{
 
 .app-download:nth-child(2){
     background-image: url(./img/googleplay-button.png);
+}
+
+footer{
+    margin: 24px 0;
+    margin-bottom: 52px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer a{
+    margin: 0 8px 12px 8px;
+    color: #8e8e8e;
+    font-size: 12px;
 }
 
 /*Responsivo*/
